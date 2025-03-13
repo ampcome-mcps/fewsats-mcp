@@ -2,7 +2,10 @@
 
 ## Overview
 
-A Model Context Protocol server that provides MCP (Machine Communication Protocol) functionality for [Fewsats](https://fewsats.com). This server enables communication and data exchange between machines using the Fewsats protocol.
+This MCP server integrates with [Fewsats](https://fewsats.com) and allows AI Agents to purchase anything in a secure way.
+
+MCP is
+
 
 ### Tools
 
