@@ -79,21 +79,21 @@ wheels = [
 
 [[package]]
 name = "fewsats"
-version = "0.0.15"
+version = "0.0.16"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "fastcore" },
     { name = "httpx" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0f/b4/72821aa9472025386903dd891ee95429734f328d5c395f0a8c722900773a/fewsats-0.0.15.tar.gz", hash = "sha256:986d250c51b32359dd8cdb24fdbd9ac8f63f0ac73fc5303a4ca2919c2c9230c1", size = 18988 }
+sdist = { url = "https://files.pythonhosted.org/packages/2a/00/65cfc9b1dbabf992ec45f1d0053dc67f79cfb1c7db23995ffc2f45cbc9c3/fewsats-0.0.16.tar.gz", hash = "sha256:0a6c72f782d0221b0ca0501c5af1d95fa26619c4dd5332b6ee97e2d07258e08b", size = 18662 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c7/08/961e3782234ad7d9d6855f85b1b6f554873669fcc1e9f68c2f7da8667ebb/fewsats-0.0.15-py3-none-any.whl", hash = "sha256:09d37382b62ec47d6e7a219daf9d4df47115785d035c5a4a43883fae71666b30", size = 15339 },
+    { url = "https://files.pythonhosted.org/packages/e7/ed/67bd6f8b56aa8cb36cd1dec364fdf10a2af9c70e598dc18d89b08d2d3858/fewsats-0.0.16-py3-none-any.whl", hash = "sha256:458970500964f5d0dd01212d6de89317a61c9b685a1f3829056cbd80af01b2a9", size = 14493 },
 ]
 
 [[package]]
 name = "fewsats-mcp"
-version = "0.0.2"
+version = "0.0.3"
 source = { editable = "." }
 dependencies = [
     { name = "fewsats" },
