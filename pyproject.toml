@@ -1,12 +1,12 @@
 [project]
 name = "fewsats-mcp"
-version = "0.0.4"
+version = "0.1.0"
 description = "Fewsats MCP server"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "mcp>=1.4.1",
-    "fewsats>=0.0.14",
+    "fewsats>=0.0.16",
 ]
 
 [build-system]
@@ -14,4 +14,4 @@ requires = [ "hatchling",]
 build-backend = "hatchling.build"
 
 [project.scripts]
-sherlock-mcp = "fewsats_mcp:main"
+fewsats-mcp = "fewsats_mcp:main"

@@ -93,7 +93,7 @@ wheels = [
 
 [[package]]
 name = "fewsats-mcp"
-version = "0.0.3"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "fewsats" },
@@ -102,7 +102,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "fewsats", specifier = ">=0.0.14" },
+    { name = "fewsats", specifier = ">=0.0.16" },
     { name = "mcp", specifier = ">=1.4.1" },
 ]
 
