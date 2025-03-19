@@ -49,9 +49,6 @@ async def payment_info(pid: str) -> str:
     """Retrieve the details of a payment."""
     return handle_response(Fewsats().payment_info(pid))
 
-def main():
-    # Initialize and run the server
-    mcp.run(transport='stdio')
 
-if __name__ == "__main__":
-    main()
+def main():
+    mcp.run(transport='stdio')

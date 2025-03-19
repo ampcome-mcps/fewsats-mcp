@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.10"
 
 [[package]]
@@ -12,7 +13,7 @@ wheels = [
 
 [[package]]
 name = "anyio"
-version = "4.8.0"
+version = "4.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "exceptiongroup", marker = "python_full_version < '3.11'" },
@@ -20,9 +21,9 @@ dependencies = [
     { name = "sniffio" },
     { name = "typing-extensions", marker = "python_full_version < '3.13'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/73/199a98fc2dae33535d6b8e8e6ec01f8c1d76c9adb096c6b7d64823038cde/anyio-4.8.0.tar.gz", hash = "sha256:1d9fe889df5212298c0c0723fa20479d1b94883a2df44bd3897aa91083316f7a", size = 181126 }
+sdist = { url = "https://files.pythonhosted.org/packages/95/7d/4c1bd541d4dffa1b52bd83fb8527089e097a106fc90b467a7313b105f840/anyio-4.9.0.tar.gz", hash = "sha256:673c0c244e15788651a4ff38710fea9675823028a6f08a5eda409e0c9840a028", size = 190949 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/46/eb/e7f063ad1fec6b3178a3cd82d1a3c4de82cccf283fc42746168188e1cdd5/anyio-4.8.0-py3-none-any.whl", hash = "sha256:b5011f270ab5eb0abf13385f851315585cc37ef330dd88e27ec3d34d651fd47a", size = 96041 },
+    { url = "https://files.pythonhosted.org/packages/a1/ee/48ca1a7c89ffec8b6a0c5d02b89c305671d5ffd8d3c94acf8b8c408575bb/anyio-4.9.0-py3-none-any.whl", hash = "sha256:9f76d541cad6e36af7beb62e978876f3b41e3e04f2c1fbf0884604c0a9c4d93c", size = 100916 },
 ]
 
 [[package]]
@@ -39,7 +40,7 @@ name = "click"
 version = "8.1.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "colorama", marker = "platform_system == 'Windows'" },
+    { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz", hash = "sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a", size = 226593 }
 wheels = [
@@ -66,33 +67,33 @@ wheels = [
 
 [[package]]
 name = "fastcore"
-version = "1.7.29"
+version = "1.8.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "packaging" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a1/a6/f457241a8a5c42b80ef50b96e7cc515dd93bdb9ea273133004bbc8a6aa96/fastcore-1.7.29.tar.gz", hash = "sha256:e7e734cbe58805a22c205341c6671de562a8abba54b13eeb24cdb4486d066e31", size = 80514 }
+sdist = { url = "https://files.pythonhosted.org/packages/0b/6f/27e593625a165bd10cd6aa1e39e5da81e180a35b3ae06ce72cb37329bffc/fastcore-1.8.0.tar.gz", hash = "sha256:d23e63aff4bcd06dde24cdf9f7ea13c48e7d274ae89e52e826df33c64869c976", size = 75111 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d7/3a/a0b1c764426622287c9b6547d4ea637c406bc884141814df4a5ebab3ab9b/fastcore-1.7.29-py3-none-any.whl", hash = "sha256:76fd4815eabbed704faca3abfea4b7e1f98b6351ba6c869a2d405f37bc4b0074", size = 84208 },
+    { url = "https://files.pythonhosted.org/packages/ab/d5/f6d4591b3ae2fc56b32d9f7845872f1e529fadc64c87384e36e75149ff87/fastcore-1.8.0-py3-none-any.whl", hash = "sha256:67739747f0f714d02944957271a11dcb4a9dd40012615e6f9d19add3e5d9e041", size = 78000 },
 ]
 
 [[package]]
 name = "fewsats"
-version = "0.0.14"
+version = "0.0.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "fastcore" },
     { name = "httpx" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3a/04/20fadb5d4e794642ef271aeae9c81f6470a371ac84b23338c00cf587f395/fewsats-0.0.14.tar.gz", hash = "sha256:b130c47138910ec745a11bb726127ce08370bc8bc25a6dc773b1ef6d964aae77", size = 18356 }
+sdist = { url = "https://files.pythonhosted.org/packages/0f/b4/72821aa9472025386903dd891ee95429734f328d5c395f0a8c722900773a/fewsats-0.0.15.tar.gz", hash = "sha256:986d250c51b32359dd8cdb24fdbd9ac8f63f0ac73fc5303a4ca2919c2c9230c1", size = 18988 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/34/4f/340d5059a8912d4fe020d313e605f0327e9f62c5b8c6b50ec018da8d1f14/fewsats-0.0.14-py3-none-any.whl", hash = "sha256:c937cef9bed163590b665f826c2137bc8ea7a250b17ab954ab96b7aa8ff46b74", size = 14201 },
+    { url = "https://files.pythonhosted.org/packages/c7/08/961e3782234ad7d9d6855f85b1b6f554873669fcc1e9f68c2f7da8667ebb/fewsats-0.0.15-py3-none-any.whl", hash = "sha256:09d37382b62ec47d6e7a219daf9d4df47115785d035c5a4a43883fae71666b30", size = 15339 },
 ]
 
 [[package]]
 name = "fewsats-mcp"
-version = "0.0.1"
+version = "0.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "fewsats" },
@@ -101,8 +102,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "fewsats" },
-    { name = "mcp", specifier = ">=1.0.0" },
+    { name = "fewsats", specifier = ">=0.0.14" },
+    { name = "mcp", specifier = ">=1.4.1" },
 ]
 
 [[package]]
@@ -162,7 +163,7 @@ wheels = [
 
 [[package]]
 name = "mcp"
-version = "1.3.0"
+version = "1.4.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -174,9 +175,9 @@ dependencies = [
     { name = "starlette" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6b/b6/81e5f2490290351fc97bf46c24ff935128cb7d34d68e3987b522f26f7ada/mcp-1.3.0.tar.gz", hash = "sha256:f409ae4482ce9d53e7ac03f3f7808bcab735bdfc0fba937453782efb43882d45", size = 150235 }
+sdist = { url = "https://files.pythonhosted.org/packages/50/cc/5c5bb19f1a0f8f89a95e25cb608b0b07009e81fd4b031e519335404e1422/mcp-1.4.1.tar.gz", hash = "sha256:b9655d2de6313f9d55a7d1df62b3c3fe27a530100cc85bf23729145b0dba4c7a", size = 154942 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d0/d2/a9e87b506b2094f5aa9becc1af5178842701b27217fa43877353da2577e3/mcp-1.3.0-py3-none-any.whl", hash = "sha256:2829d67ce339a249f803f22eba5e90385eafcac45c94b00cab6cef7e8f217211", size = 70672 },
+    { url = "https://files.pythonhosted.org/packages/e8/0e/885f156ade60108e67bf044fada5269da68e29d758a10b0c513f4d85dd76/mcp-1.4.1-py3-none-any.whl", hash = "sha256:a7716b1ec1c054e76f49806f7d96113b99fc1166fc9244c2c6f19867cb75b593", size = 72448 },
 ]
 
 [[package]]
