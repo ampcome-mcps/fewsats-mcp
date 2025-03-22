@@ -13,12 +13,16 @@ def handle_response(response):
 
 @mcp.tool()
 async def balance() -> str:
-    """Retrieve the balance of the user's wallet."""
+    """Retrieve the balance of the user's wallet.
+    You will rarely need to call this unless instructed by the user, or to troubleshoot payment issues.
+    Fewsats will automatically add balance when needed."""
     return handle_response(Fewsats().balance())
 
 @mcp.tool()
 async def payment_methods() -> str:
-    """Retrieve the user's payment methods."""
+    """Retrieve the user's payment methods.
+    You will rarely need to call this unless instructed by the user, or to troubleshoot payment issues.
+    Fewsats will automatically select the best payment method."""
     return handle_response(Fewsats().payment_methods())
 
 @mcp.tool()
