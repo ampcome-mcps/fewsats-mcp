@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "mcp>=1.4.1",
-    "fewsats>=0.0.16",
+    "fewsats>=0.0.19",
 ]
 
 [build-system]
