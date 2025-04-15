@@ -33,7 +33,7 @@ async def pay_offer(offer_id: str, l402_offer: dict) -> str:
     {
         'offers': [
             {
-                'offer_id': 'test_offer_2',  # String identifier for the offer
+                'id': 'test_offer_2',        # String identifier for the offer
                 'amount': 1,                 # Numeric cost value
                 'currency': 'usd',           # Currency code
                 'description': 'Test offer', # Text description
