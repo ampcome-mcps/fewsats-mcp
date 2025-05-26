@@ -47,13 +47,13 @@ async def pay_offer(offer_id: str, l402_offer: dict) -> str:
 
     Returns payment status response.
     If payment status is `needs_review` inform the user he will have to approve it at app.fewsats.com"""
-    return handle_response(fewsats.pay_offer(offer_id, l402_offer))
+    return handle_response(Fewsats().pay_offer(offer_id, l402_offer))
 
 @mcp.tool()
 async def payment_info(pid: str) -> str:
     """Retrieve the details of a payment.
     If payment status is `needs_review` inform the user he will have to approve it at app.fewsats.com"""
-    return handle_response(fewsats.payment_info(pid))
+    return handle_response(Fewsats().payment_info(pid))
 
 @mcp.tool()
 async def billing_info() -> str:
