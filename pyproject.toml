@@ -1,12 +1,12 @@
 [project]
 name = "fewsats-mcp"
-version = "0.1.5"
+version = "0.1.6"
 description = "Fewsats MCP server"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "mcp>=1.4.1",
-    "fewsats>=0.0.21",
+    "fewsats>=0.0.22",
 ]
 
 [build-system]

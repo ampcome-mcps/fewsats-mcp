@@ -79,21 +79,21 @@ wheels = [
 
 [[package]]
 name = "fewsats"
-version = "0.0.21"
+version = "0.0.22"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "fastcore" },
     { name = "httpx" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1f/05/a16d6cd184ff508720911edb19e0abcc8bf27b3e341678981bfb4eab244f/fewsats-0.0.21.tar.gz", hash = "sha256:a103a5ad84839f0508792e2ebf94124348ca675c36050eb9dd890e21e32e5db0", size = 19489, upload-time = "2025-04-23T12:54:34.482Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e0/8e/123cf2abe2c91d9a1924b296f3b175fef9e72bde88253e2d47d5837584c8/fewsats-0.0.22.tar.gz", hash = "sha256:84e100e8228cb8e6d7ba9f1d2a824b429287bdc565baf2bb45e8446044aeb141", size = 20144, upload-time = "2025-05-27T10:45:35.078Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/95/bf6d04be52c860f76cd30029f9744a234e4bbddb46fbbcf2d0972f504d56/fewsats-0.0.21-py3-none-any.whl", hash = "sha256:0574dfc628a3cef949c70b1d89ee13da0607ed22e9e058e1654a3688591f4b64", size = 15517, upload-time = "2025-04-23T12:54:33.021Z" },
+    { url = "https://files.pythonhosted.org/packages/96/86/cbd6cd6aa45be45b813212d963bc7adb6981e3b394e89bb8470066ab6b8f/fewsats-0.0.22-py3-none-any.whl", hash = "sha256:b788d7c2e87c48e9ddc65a7052b8e2bf4aa4808ab60b27bed55f24fde5f67089", size = 15965, upload-time = "2025-05-27T10:45:33.5Z" },
 ]
 
 [[package]]
 name = "fewsats-mcp"
-version = "0.1.5"
+version = "0.1.6"
 source = { editable = "." }
 dependencies = [
     { name = "fewsats" },
@@ -102,7 +102,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "fewsats", specifier = ">=0.0.21" },
+    { name = "fewsats", specifier = ">=0.0.22" },
     { name = "mcp", specifier = ">=1.4.1" },
 ]
 
