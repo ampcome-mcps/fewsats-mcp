@@ -24,7 +24,7 @@ clean:
 # 2. Sync this new package version into the pyproject.toml with:
 sync-version:
 	uv sync
-# 3. Build the package 
+# 3. Build the package
 build: clean
 	uv build
 
