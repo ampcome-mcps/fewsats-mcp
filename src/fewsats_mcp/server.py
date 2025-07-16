@@ -1,6 +1,10 @@
 from mcp.server.fastmcp import FastMCP
 from fewsats.core import Fewsats
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv(override=True)
 
 # Create FastMCP and Fewsats instances
 mcp = FastMCP("Fewsats MCP Server")
